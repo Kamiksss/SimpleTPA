@@ -1,0 +1,16 @@
+name: SimpleTPA
+version: ${project.version}
+main: me.kamiksss.simpletpa.SimpleTPA
+api-version: '1.19'
+commands:
+  tpa:
+    description: Sends a request to teleport ot certain player
+    usage: /<command> <player>
+    aliases:
+      - tp
+  tpaccept:
+    description: Accepts a teleportation request
+    usage: /<command>
+  tpadeny:
+    description: Refuses a teleportation request
+    usage: /<command>
